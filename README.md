@@ -1,7 +1,7 @@
 # Deepa's Portfolio Website
 
 Welcome to my personal portfolio website! This is a showcase of my skills, and projects in the field of Software Development. <br/>
-Link- https://deepajha.netlify.app
+Link- 
 <br/> <br/>
 ## Website Preview
 ![image](https://github.com/Deepajha14/Deepa-Jha/assets/103725672/94807ec4-517c-4954-a8d4-dd072c35bbdc)
@@ -11,7 +11,6 @@ Link- https://deepajha.netlify.app
 
 - [Features](#features)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Feedback and Suggestions](#feedback-and-suggestions)
 - [Credits](#credits)
 
@@ -37,17 +36,6 @@ Link- https://deepajha.netlify.app
 
 Feel free to explore the website to gain insight into my skills, and projects. You can navigate through the pages using the navigation bar. If you find the website useful, consider starring this repository to show your support.
 
-## Contributing
-
-I welcome contributions that could enhance the functionality or visual appeal of this portfolio website. To contribute, follow these steps:
-
-1. Fork the repository.
-2. Clone the forked repository to your local machine.
-3. Make necessary changes and improvements.
-4. Push your changes to your forked repository.
-5. Open a pull request, detailing the changes you've made.
-
- Please ensure that you provide proper attribution if you use this project as a template.
 
 ## Feedback and Suggestions
 
