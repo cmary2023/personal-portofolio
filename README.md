@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a showcase of my skills, and p
 Link- 
 <br/> <br/>
 ## Website Preview
-![image](https://github.com/Deepajha14/Deepa-Jha/assets/103725672/94807ec4-517c-4954-a8d4-dd072c35bbdc)
+![image](https://github.com/cmary2023/personal-portofolio/blob/main/Maria%20Corban%20(27.05.2024%2019_02).png)
 
 
 ## Table of Contents
