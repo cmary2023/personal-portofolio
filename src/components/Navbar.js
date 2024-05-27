@@ -3,7 +3,7 @@ import "./NavbarStyle.css";
 import { Link } from "react-scroll";
 import {
   FaGithub,
-  FaInstagram,
+  FaCodepen,
   FaLinkedin,
   FaBars,
   FaTimes,
@@ -25,7 +25,7 @@ export default function Navbar() {
         >
           <div className="logo-img">
             <span className="blink">&lt;</span>
-            <span>&#47;</span>D<span className="blink">&gt;</span>
+            <span>&#47;</span>MC<span className="blink">&gt;</span>
           </div>
         </Link>
       </div>
@@ -75,36 +75,36 @@ export default function Navbar() {
       </ul>
       <div className={click ? "social-links active" : "social-links"}>
         <a
-          href="https://www.linkedin.com/in/deepajha14/"
+          href="www.linkedin.com/in/maria-corban"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin
             className="social"
-            size={25}
+            size={50}
             style={{ marginRight: "2rem" }}
           />
         </a>
         <a
-          href="https://github.com/Deepajha14"
+          href="https://github.com/cmary2023"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub
             className="social"
-            size={25}
+            size={50}
             style={{ marginRight: "2rem" }}
           />
         </a>
         <a
-          href="https://www.instagram.com/artsydeepa/"
+          href="https://codepen.io/cmary2023"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram
+          <FaCodepen
             className="social"
-            size={25}
-            style={{ marginRight: "2rem" }}
+            size={50}
+            style={{ marginRight: "2rem"}}
           />
         </a>
       </div>

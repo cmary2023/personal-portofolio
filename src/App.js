@@ -3,20 +3,24 @@ import "./index.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomeBanner from "./components/HomeBanner";
-import ProjectCard from './components/ProjectCard'
-import AboutMe from './components/AboutMe'
-import SkillCard from './components/SkillCard'
-import ContactForm from './components/ContactForm'
-import AnimatedCursor from "react-animated-cursor"
+import ProjectCard from './components/ProjectCard';
+import AboutMe from './components/AboutMe';
+import SkillCard from './components/SkillCard';
+import ContactForm from './components/ContactForm';
+import AnimatedCursor from "react-animated-cursor";
+import ViewMoreBtn from "./components/ViewMoreBtn";
+
 
 
 function App() {
+
   return (
+    
     <>
     <AnimatedCursor
       color="#fff"
       innerSize={8}
-      outerSize={50}
+      outerSize={30}
       innerScale={1}
       outerScale={2.2}
       outerAlpha={0}
@@ -28,40 +32,53 @@ function App() {
         backgroundColor: '#F94892'
       }}
     />
+     
     <div>
+    
       <Navbar />
-      <HomeBanner id = "home"/>
+      <HomeBanner id = "home"/> 
+      <h1 id="text3d">Projects 👇</h1>
+      
       <ProjectCard
         id = "project"
         className = "odd"
-        projectTitle="Wiggles: Pet Care Made Easy"
-        projectDesc="A one-stop solution for pet data management, automated vaccinations, QR-based lost pet recovery, and organizing pet playdates."
-        projectLink="https://github.com/DevanshSahni/Wiggles"
-        deployedProjectLink="https://wiggles.vercel.app"
-        projectImg={require('./images/projectWiggles.jpg')}
+        projectTitle="Robocats"
+        projectDesc="A simple REACT app that displays automatically generated robocats using API."
+        projectLink="https://cmary2023.github.io/robofriends/"
+        deployedProjectLink="https://cmary2023.github.io/robofriends/"
+        projectImg={require('./images/Projects/robofriends.png')}
       />
 
       <ProjectCard
-        projectTitle="Animated Card: featuring the latest glassmorphism trend"
-        projectDesc="React JS provided me the flexibility needed to create an interactive card with a glass-like effect, which adds a sense of depth and dimension to the user interface"
-        projectLink="https://github.com/Deepajha14/Touch-me-not-Card"
-        deployedProjectLink="https://deepajha14.github.io/Touch-me-not-Card/"
-        projectImg={require('./images/projectGlassmorphism.png')}
+        projectTitle="Drum Machine"
+        projectDesc="A drum machine project for freeCodeCamp's frontend libraries certification"
+        projectLink="https://codepen.io/cmary2023/pen/rNREOGq"
+        deployedProjectLink="https://codepen.io/cmary2023/pen/rNREOGq"
+        projectImg={require('./images/Projects/drum-machine.png')}
       />
 
       <ProjectCard
         className = "odd"
-        projectTitle="Rog-free: accessible anytime, anywhere"
-        projectDesc="An approach to target and heal specific health conditions by transforming the living room into a yoga studio"
-        projectLink="https://github.com/Deepajha14/Rog-Free"
-        deployedProjectLink="https://deepajha14.github.io/Rog-Free/"
-        projectImg={require('./images/projectRogfree.png')}
+        projectTitle="FCC Calculator"
+        projectDesc="This project is part of the FreeCodeCamp's front-end certification. Created with React libarie."
+        projectLink="https://codepen.io/cmary2023/pen/GReVvBM"
+        deployedProjectLink="https://codepen.io/cmary2023/pen/GReVvBM"
+        projectImg={require('./images/Projects/calculator.png')}
       />
-      <AboutMe id = 'about' />
+      <ProjectCard
+        projectTitle="WomenTech"
+        projectDesc="A landing page project for freeCodeCamp's certification"
+        projectLink="https://codepen.io/cmary2023/pen/MWZrrXZ"
+        deployedProjectLink="https://codepen.io/cmary2023/pen/MWZrrXZ"
+        projectImg={require('./images/Projects/landing-page.png')}
+      />
+     <ViewMoreBtn id = 'view'>Click here!</ViewMoreBtn>
+     <AboutMe id = 'about' />
       <SkillCard id = 'skills' />
       <ContactForm id = 'contact' />
+  
       <Footer />
-    </div>
+      </div>
     </>
   );
 }

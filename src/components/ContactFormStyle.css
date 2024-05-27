@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .contact-window {
     margin-top: 80px;
     padding: 20px 12vw 20px 15vw;
@@ -5,64 +8,81 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 
 .contact-window h1 {
     color: #fff;
     font-size: 50px;
+
+    font-family: "Encode Sans Expanded", sans-serif;
 }
 
 .contact-window p {
     font-size: 16px;
     letter-spacing: 1px;
     word-spacing: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: yellow;
+    font-family: "Texturina", serif;
+
 }
 
 .contact-container {
     display: flex;
     align-items: flex-end;
     width: 100%;
+  
+
+
 }
 
 .contact-wrapper-left {
     width: 450px;
     height: 100%;
+    margin-bottom: 7em;
+    margin-right: 4em;
 }
 
 .contact-wrapper-right {
     width: 50%;
-    padding-left: 30px;
+    margin-top: 1.8em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contact-wrapper-right input, textarea {
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: rgb(243, 244, 241);
+    border: 2px solid rgb(11, 10, 10);
     border-radius: 6px;
     margin-bottom: 25px;
     padding-left: 15px;
     font-size: 18px;
     width: 100%;
     transition: 0.3s ease-in-out;
-    outline: none;
+    outline: 0;
+  
 }
 
 .contact-wrapper-right input {
-    height: 45px;
+    height: 50px;
 }
 
 .contact-wrapper-right input:focus, textarea:focus {
-    border: 1px solid #fff;
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 0 10px 2px rgb(100, 91, 91);
 }
 
 .contact-wrapper-right textarea {
     padding-top: 12px;
 }
 
+#submitBtn{
+    margin-top: -0.2em;
+    margin-bottom: 2em;;
+}
 
 
 @media screen and (max-width: 1190px) {
@@ -83,7 +103,7 @@
     }
 
     .btn#submitBtn {
-        margin-top: 0px;
+        margin-top: 0;
         font-size: 16px;
         font-weight: 400;
     }

@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+--m: 1.5rem; 
+--red: #FF6565;
+--pink: #FF64F9;
+--purple: #6B5FFF;
+--blue: #4D8AFF;
+--green: #5BFF89;
+--yellow: #FFEE55;
+--orange: #FF6D1B;
+}
 .home .content {
     height: 100vh;
     display: flex;
@@ -6,6 +17,7 @@
     justify-content: center;
     padding-left: 22vw;
     margin-bottom: 50px;
+   
 }
 
 .home .content .wrapper {
@@ -14,44 +26,94 @@
 
 .home .content .name {
     white-space: nowrap;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 45px;
+    color: yellow;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     height: fit-content;
     width: fit-content;
-    padding-left: 5px;
+    margin-left: -3.2em;
 }
 
 .home .content .staticTitle {
     font-size: 100px;
     font-weight: 500;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     align-items: center;
     height: fit-content;
     width: fit-content;
+    margin-left: -1.5em;
 
 }
 
-.home .content .staticTitle .hrLine {
+/*.home .content .staticTitle .hrLine {
     border-bottom: 3px solid rgba(255, 255, 255, 0.6);
     margin-left: 20px;
     width: 20vw;
-}
+}*/
 
 .home .content .dynamicTitle {
     font-size: 100px;
     font-weight: 500;
     line-height: 100px;
     width: fit-content;
+    margin-bottom:0.5em;
+    margin-left: -1em;
 
 }
 
 .home .content .dynamicTitle li {
     width: 100%;
-    z-index: -1;
+    z-index: -2;
+    color: yellow;
 }
+
+.hire-btn {
+border: calc(0.08 * var(--m)) solid transparent;
+  position: relative;
+  margin:auto;
+  color: #fbfbfb;
+  font-family: 'Space Grotesk';
+  font-size: var(--m);
+  border-radius: calc(0.7 * var(--m));
+  padding: calc(0.5 * var(--m)) calc(1 * var(--m));
+  background:linear-gradient(#420327, #420327), linear-gradient(#420327 50%, rgba(18, 18, 19, 0.6) 80%, rgba(18, 18, 19, 0)),  linear-gradient(90deg, var(--orange), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red));
+  background-origin: border-box;
+  background-clip: padding-box, border-box, border-box;
+  background-size: 200%;
+  animation: animate 2s infinite linear;
+}
+.hire-btn ::before {
+    content: '';
+    background: linear-gradient(90deg, var(--orange), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red));
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    bottom: -20%;
+    z-index: -5;
+    background-size: 200%;
+    animation: animate 2s infinite linear;
+    filter: blur(calc(0.8 * var(--m)));
+  }
+  
+  .hire-btn:hover, .hire-btn:hover::before {
+    animation: animate 0.5s infinite linear;
+    color:#5BFF89;
+  }
+  
+  @keyframes animate {
+    0% {background-position: 0}
+    100% {background-position: 200%}
+  }
+  
+  @media screen and (max-width: 1000px) {
+    :root {
+      --m: 2rem;
+    }
+  }
 
 @keyframes slider {
     0%   {width: 0%; }
@@ -66,7 +128,7 @@
 
   .home .content .dynamicTitle li span {
     white-space: wrap;
-    background-image: linear-gradient(to right, #ffe1a0, #f67280, #F94892);
+    background-image: linear-gradient(to right, #edddec, #670c61, #e8e81e);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: -1;

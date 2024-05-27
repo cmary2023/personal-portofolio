@@ -1,12 +1,14 @@
 .footer {
     width: 100%;
     padding: 2rem;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
+    color:yellow;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgb(242, 248, 78);
     white-space: nowrap;
+    
 }

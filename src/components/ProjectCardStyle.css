@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
 .project-window {
     width: 100%;
     padding: 160px 7vw 0 15vw;
@@ -22,21 +25,24 @@
     margin-bottom: 15px;
     font-size: 36px;
     font-weight: 500;
-    color: #fff;
+    font-family: "Encode Sans Expanded", sans-serif;
+    color: #e7d50f;
 }
 
 .about-project .desc {
     font-size: 18px;
     font-weight: 400;
+    font-family: "Texturina", serif;
+    color:#fff;
 }
 
 .project-img {
     margin-left: 100px;
     object-fit: contain;
-    animation: jump 2.7s infinite;
+    animation: pulse-regular 2.7s infinite;
     position: relative;
     top: 0px;
-    filter: drop-shadow(2px 10px 20px rgba(255, 255, 255, 0.32));
+    filter: drop-shadow(2px 10px 20px rgba(247, 247, 247, 0.637));
 }
 
 .odd .project-img {
@@ -44,28 +50,28 @@
     margin-left: 0;
 }
 
-@keyframes jump {
+@keyframes pulse-regular{
     0% {
-        top: 20px;
-    }
+		transform: scale(1);
+	}
 
-    50% {
-        top: -20px;
-    }
+	50% {
+		transform: scale(1.1);
+	}
 
-    100% {
-        top: 20px;
-    }
+	100% {
+		transform: scale(1);
+	}
 }
 
 .project-img  img {
     border-radius: 18px;
-    max-width: 500px;
+    max-width: 900px;
     width: fit-content;
     height: auto;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
     .project-window {
         padding-left: 17vw;
         padding-top: 180px;
@@ -80,7 +86,7 @@
     }
 
     .project-img  img  {
-        max-width: 400px;
+        max-width: 800px;
     }
 }
 
@@ -108,7 +114,7 @@
     }
 
     .project-img  img  {
-        max-width: 450px;
+        max-width: 900px;
     }
 }
 
