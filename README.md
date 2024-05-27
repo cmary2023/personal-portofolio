@@ -45,7 +45,7 @@ I am open to any valuable feedback or suggestions that could help improve this p
 
 ## Credits
 
-The UI design of this website is inspired by the [portfolio](https://github.com/Deepajha14/Deepa-Jha) of Deepa Jha. While the base structure was drawn from his portfolio, I have innovatively customized and revamped the layout to reflect my personal style and give it a unique appearance. My heartfelt gratitude to [`Deepa Jha`]([https://github.com/HamishMW](https://github.com/Deepajha14/Deepa-Jha)) for the creative inspiration that has contributed to this unique presentation.
+The UI design of this website is inspired by the [portfolio](https://github.com/Deepajha14/Deepa-Jha) of Deepa Jha. While the base structure was drawn from her portfolio, I have innovatively customized and revamped the layout to reflect my personal style and give it a unique appearance. My heartfelt gratitude to [`Deepa Jha`]([https://github.com/HamishMW](https://github.com/Deepajha14/Deepa-Jha)) for the creative inspiration that has contributed to this unique presentation.
 
 
 ---
