@@ -52,7 +52,7 @@ function App() {
       <ProjectCard
         projectTitle="Drum Machine"
         projectDesc="A drum machine project for freeCodeCamp's frontend libraries certification"
-        projectLink="https://codepen.io/cmary2023/pen/rNREOGq"
+        projectLink="https://github.com/cmary2023/drum-machine"
         deployedProjectLink="https://codepen.io/cmary2023/pen/rNREOGq"
         projectImg={require('./images/Projects/drum-machine.png')}
       />
@@ -61,7 +61,7 @@ function App() {
         className = "odd"
         projectTitle="FCC Calculator"
         projectDesc="This project is part of the FreeCodeCamp's front-end certification. Created with React libarie."
-        projectLink="https://codepen.io/cmary2023/pen/GReVvBM"
+        projectLink="https://github.com/cmary2023/fcc-calculator"
         deployedProjectLink="https://codepen.io/cmary2023/pen/GReVvBM"
         projectImg={require('./images/Projects/calculator.png')}
       />
