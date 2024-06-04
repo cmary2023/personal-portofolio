@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a showcase of my skills, and p
 Link- https://cute-blini-7a5e87.netlify.app/
 <br/> <br/>
 ## Website Preview
-![image](https://github.com/cmary2023/personal-portofolio/blob/main/Maria%20Corban%20(27.05.2024%2019_02).png)
+![image](https://github.com/cmary2023/personal-portofolio/blob/main/preview.png)
 
 
 ## Table of Contents
