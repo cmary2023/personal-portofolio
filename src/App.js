@@ -68,7 +68,7 @@ function App() {
       <ProjectCard
         projectTitle="WomenTech"
         projectDesc="A landing page project for freeCodeCamp's certification"
-        projectLink="https://codepen.io/cmary2023/pen/MWZrrXZ"
+        projectLink="https://github.com/cmary2023/landing-page"
         deployedProjectLink="https://codepen.io/cmary2023/pen/MWZrrXZ"
         projectImg={require('./images/Projects/landing-page.png')}
       />
