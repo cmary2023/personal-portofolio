@@ -75,7 +75,7 @@ export default function Navbar() {
       </ul>
       <div className={click ? "social-links active" : "social-links"}>
         <a
-          href="www.linkedin.com/in/maria-corban"
+          href="https://www.linkedin.com/in/maria-corban/"
           target="_blank"
           rel="noopener noreferrer"
         >
