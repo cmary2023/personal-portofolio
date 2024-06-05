@@ -167,7 +167,7 @@ border: calc(0.08 * var(--m)) solid transparent;
 @media screen and (max-width: 750px) {
     .home .content{
         align-items: center;
-        padding: 0 12vw;
+        /*padding: 0 12vw;*/
     }
     .home .content .name {
         font-size: 20px;
