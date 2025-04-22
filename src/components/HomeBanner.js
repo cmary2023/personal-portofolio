@@ -8,7 +8,7 @@ export default function HomeBanner({id}) {
     <div className="home" id={id}> 
         <div className='content'>
             <div className="wrapper">
-              <div className="name">Maria Corban</div>
+              <div className="name">Maria Cornea</div>
               <div className="staticTitle">
                 Front-end
                 <div className='hrLine'></div>
