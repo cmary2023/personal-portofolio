@@ -13,7 +13,7 @@ export default function AboutMe({ id }) {
           <br></br>
           Often working on some kind of personal project both for the enjoyment of the process as well as a way to apply the theoretical knowledge gained.<br></br>
           I aspire to be an Front-End Web Developer and later an Full Stack Web Developer.<br></br>
-         Want to know more about me? Feel free to <a className='resume' href="https://drive.google.com/file/d/1_Xa-iFqtNOpEnqvwFKEPUhjUsYmU6MCs/view?usp=drive_link" target="_blank" rel="noopener noreferrer">explore my resume.</a>
+         Want to know more about me? Feel free to <a className='resume' href="https://drive.google.com/file/d/1T2QtRMoVeoyUDKwZtbipNRRTpQhnbq3S/view?usp=share_link" target="_blank" rel="noopener noreferrer">explore my resume.</a>
         </div>
         <div className="profile-photo">
         <div className="heading"> About Me</div>
