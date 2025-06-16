@@ -1,6 +1,6 @@
 # Maria's Portfolio Website
 
-Welcome to my personal portfolio website! This is a showcase of my skills, and projects in the field of Software Development. <br/>
+Welcome to my personal portfolio website! This is a showcase of my skills, and projects in the field of Front-End Development. <br/>
 Link- https://cute-blini-7a5e87.netlify.app/
 <br/> <br/>
 ## Website Preview
